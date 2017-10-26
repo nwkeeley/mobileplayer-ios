@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		113C26151FA2219C00D80D6D /* MLSaveButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 113C26121FA2219C00D80D6D /* MLSaveButton.png */; };
+		113C26161FA2219C00D80D6D /* MLSaveButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 113C26131FA2219C00D80D6D /* MLSaveButton@2x.png */; };
+		113C26171FA2219C00D80D6D /* MLSaveButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 113C26141FA2219C00D80D6D /* MLSaveButton@3x.png */; };
+		113C261A1FA2221200D80D6D /* SaveVideoActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113C26191FA2221200D80D6D /* SaveVideoActivity.swift */; };
 		5F31B7B91BBAE39900EF50C4 /* MobilePlayerNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F31B7B81BBAE39900EF50C4 /* MobilePlayerNotification.swift */; };
 		5F3F03C31C18E73200EF50C4 /* PrerollExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3F03C21C18E73200EF50C4 /* PrerollExampleViewController.swift */; };
 		5F3F03C51C18E74000EF50C4 /* PauseOverlayExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3F03C41C18E74000EF50C4 /* PauseOverlayExampleViewController.swift */; };
@@ -137,6 +141,10 @@
 
 /* Begin PBXFileReference section */
 		0A3D625F8D46F7B3823A9927 /* Pods-MobilePlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilePlayerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobilePlayerTests/Pods-MobilePlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		113C26121FA2219C00D80D6D /* MLSaveButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MLSaveButton.png; sourceTree = "<group>"; };
+		113C26131FA2219C00D80D6D /* MLSaveButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MLSaveButton@2x.png"; sourceTree = "<group>"; };
+		113C26141FA2219C00D80D6D /* MLSaveButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MLSaveButton@3x.png"; sourceTree = "<group>"; };
+		113C26191FA2221200D80D6D /* SaveVideoActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveVideoActivity.swift; sourceTree = "<group>"; };
 		460022C3A2D4FC80A1D57D18 /* Pods-MobilePlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilePlayerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobilePlayerTests/Pods-MobilePlayerTests.release.xcconfig"; sourceTree = "<group>"; };
 		505CCD80FF878F8F17EC4627 /* Pods_MobilePlayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobilePlayerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F31B7B81BBAE39900EF50C4 /* MobilePlayerNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobilePlayerNotification.swift; sourceTree = "<group>"; };
@@ -276,6 +284,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		113C26181FA221F300D80D6D /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				113C26191FA2221200D80D6D /* SaveVideoActivity.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
 		5F01D5191C041EF400EF50C4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -377,6 +393,9 @@
 		5F8272751BFAC3BD00EF50C4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				113C26121FA2219C00D80D6D /* MLSaveButton.png */,
+				113C26131FA2219C00D80D6D /* MLSaveButton@2x.png */,
+				113C26141FA2219C00D80D6D /* MLSaveButton@3x.png */,
 				5F8272761BFAC3BD00EF50C4 /* MLCloseButton.png */,
 				5F8272771BFAC3BD00EF50C4 /* MLCloseButton@2x.png */,
 				5F8272781BFAC3BD00EF50C4 /* MLCloseButton@3x.png */,
@@ -470,6 +489,7 @@
 				CE554D6F1AFE6EBB00DAC7E9 /* MobilePlayerViewController.swift */,
 				CE554D6E1AFE6EBB00DAC7E9 /* MobilePlayerOverlayViewController.swift */,
 				5FD756951BAC4AE700EF50C4 /* WatermarkViewController.swift */,
+				113C26181FA221F300D80D6D /* Activity */,
 				5F7CFC251BA22A3100EF50C4 /* Views */,
 				C308B3B71B14F98700CB1515 /* Config */,
 				C3A9AF0F1B04C89D00D0C842 /* Parsers */,
@@ -741,10 +761,13 @@
 				5F8272911BFAC3BD00EF50C4 /* MLPauseButton.png in Resources */,
 				5F82728C1BFAC3BD00EF50C4 /* MLCloseButton@2x.png in Resources */,
 				5F8272931BFAC3BD00EF50C4 /* MLPauseButton@3x.png in Resources */,
+				113C26171FA2219C00D80D6D /* MLSaveButton@3x.png in Resources */,
 				5F8272961BFAC3BD00EF50C4 /* MLPlayButton@3x.png in Resources */,
 				5F82728F1BFAC3BD00EF50C4 /* MLIncreaseVolume@2x.png in Resources */,
+				113C26161FA2219C00D80D6D /* MLSaveButton@2x.png in Resources */,
 				5F8272991BFAC3BD00EF50C4 /* MLReduceVolume@3x.png in Resources */,
 				5F8272981BFAC3BD00EF50C4 /* MLReduceVolume@2x.png in Resources */,
+				113C26151FA2219C00D80D6D /* MLSaveButton.png in Resources */,
 				5F8272921BFAC3BD00EF50C4 /* MLPauseButton@2x.png in Resources */,
 				5F82728E1BFAC3BD00EF50C4 /* MLIncreaseVolume.png in Resources */,
 				5F8272901BFAC3BD00EF50C4 /* MLIncreaseVolume@3x.png in Resources */,
@@ -827,6 +850,7 @@
 				CE554D731AFE6EBB00DAC7E9 /* MobilePlayerOverlayViewController.swift in Sources */,
 				5FA92EA71BA9919D00EF50C4 /* Slider.swift in Sources */,
 				5FD756941BAC494800EF50C4 /* WatermarkConfig.swift in Sources */,
+				113C261A1FA2221200D80D6D /* SaveVideoActivity.swift in Sources */,
 				5FA92EA31BA9896300EF50C4 /* ToggleButton.swift in Sources */,
 				5F7CFC221BA21A4700EF50C4 /* ClosureSupport.swift in Sources */,
 				CE554D741AFE6EBB00DAC7E9 /* MobilePlayerViewController.swift in Sources */,
